@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwerb2i2k11nv"]
+
+[ext_resource type="Texture2D" uid="uid://dyhwok8yblg8v" path="res://Images/teamgeist ball.png" id="1_e0s1g"]
+
+[node name="TeamgeistBall" type="Sprite2D"]
+position = Vector2(1628.1, 1008.74)
+scale = Vector2(0.465, 0.465)
+texture = ExtResource("1_e0s1g")

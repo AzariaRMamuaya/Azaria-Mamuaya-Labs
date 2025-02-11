@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://b8abwb3s6a62e"]
+
+[ext_resource type="Texture2D" uid="uid://btnymnu2g1t28" path="res://Images/anfield pitch.jpeg" id="1_p6iok"]
+[ext_resource type="Texture2D" uid="uid://djx8on8pblota" path="res://Images/Liverpool_FC.png" id="2_nv4pr"]
+[ext_resource type="PackedScene" uid="uid://dvar0okn2wql" path="res://Mohamed_Salah.tscn" id="3_8pimm"]
+[ext_resource type="PackedScene" uid="uid://dwerb2i2k11nv" path="res://teamgeist_ball.tscn" id="4_8r0b8"]
+
+[node name="AnfieldPitch" type="Sprite2D"]
+position = Vector2(576.75, 325.15)
+scale = Vector2(0.142037, 0.142603)
+texture = ExtResource("1_p6iok")
+
+[node name="LiverpoolFc" type="Sprite2D" parent="."]
+position = Vector2(-3349.48, -1480.68)
+scale = Vector2(2, 2)
+texture = ExtResource("2_nv4pr")
+
+[node name="MoSalah" parent="." instance=ExtResource("3_8pimm")]
+
+[node name="TeamgeistBall" parent="." instance=ExtResource("4_8r0b8")]
+position = Vector2(1686.14, 1007.26)
+scale = Vector2(0.302904, 0.302625)
+
+[node name="TeamgeistBall2" parent="TeamgeistBall" instance=ExtResource("4_8r0b8")]
+position = Vector2(-912.17, -18.2725)
+scale = Vector2(1.0617, 1.05917)

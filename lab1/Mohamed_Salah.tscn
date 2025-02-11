@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvar0okn2wql"]
+
+[ext_resource type="Texture2D" uid="uid://bqufl45hllv7f" path="res://Images/mo salah.png" id="1_pcdov"]
+[ext_resource type="Texture2D" uid="uid://dyhwok8yblg8v" path="res://Images/teamgeist ball.png" id="2_5tbsw"]
+
+[node name="MoSalah" type="Sprite2D"]
+position = Vector2(-350.261, 735.257)
+scale = Vector2(0.860842, 0.859484)
+texture = ExtResource("1_pcdov")
+
+[node name="TeamgeistBall" type="Sprite2D" parent="."]
+position = Vector2(220.82, 530.331)
+scale = Vector2(0.464661, 0.465396)
+texture = ExtResource("2_5tbsw")
