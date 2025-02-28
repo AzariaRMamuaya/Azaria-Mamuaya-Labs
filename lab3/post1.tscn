@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ery04ruxx86y"]
+
+[ext_resource type="PackedScene" uid="uid://dyhvd12xstg6e" path="res://goalpost.tscn" id="1_t0rbv"]
+
+[node name="Sprite2D" type="Sprite2D"]
+
+[node name="Goalpost" parent="." instance=ExtResource("1_t0rbv")]
