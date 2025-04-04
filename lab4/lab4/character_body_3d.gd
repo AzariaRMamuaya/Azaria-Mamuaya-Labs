@@ -45,7 +45,7 @@ func _physics_process(delta):
 
 	move_and_slide()
 
-func play_animation(name: String):
+func play_animation(anim_name: String):
 	var anim_player = $AnimationLibrary_Godot_Standard/AnimationPlayer
-	if anim_player.current_animation != name and anim_player.has_animation(name):
-		anim_player.play(name)
+	if anim_player.current_animation != anim_name and anim_player.has_animation(anim_name):
+		anim_player.play(anim_name)
